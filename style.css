@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body{
+      background-color: #f5f5ff;
+      font-size: 20px
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card {
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 650px;
+}
+
+#photo {
+  width:600px;
+  height: 300px;
+}
+
+.header {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: teal;
+  font-weight:bold;
+  font-family: 'Roboto'
+}
+
+.header{
+  display:flex;
+  flex-direction:row;
+}
+
+#t1{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0s infinite alternate;
+}
+
+#t2{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.01s infinite alternate;
+}
+
+#t3{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.02s infinite alternate;
+}
+
+#t4{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.03s infinite alternate;
+}
+
+#t5{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.04s infinite alternate;
+}
+
+#t6{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.05s infinite alternate;
+}
+
+#t7{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.06s infinite alternate;
+}
+
+#t8{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.07s infinite alternate;
+}
+
+#t9{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.08s infinite alternate;
+}
+
+#t10{
+  animation: bounce 0.5s cubic-bezier(.5, 0.05, 1, .5) 0.09s infinite alternate;
+}
+
+@keyframes bounce {
+  from{transform: translate3d(0, 0, 0);}
+  to{transform: translate3d(0, 180px, 0);}
+
+}
